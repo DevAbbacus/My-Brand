@@ -1,0 +1,74 @@
+
+/* ADD-ONS 2.0 */
+
+
+#plugin-fw-wc.yith-wapo .yith-plugin-fw-panel-custom-tab-container { padding-top: 40px; margin: 0; }
+#plugin-fw-wc.yith-wapo .list-table-title h2 { border: 0; padding: 20px 20px 40px 0px; display: inline-block; }
+
+/*
+ *	BLOCKS
+ */
+
+#yith_wapo_panel_blocks table.form-table { border: 2px solid #efefef; }
+#yith_wapo_panel_blocks table.form-table tr th { border: 0; padding: 15px 20px; text-align: center; }
+#yith_wapo_panel_blocks table.form-table tr td { padding: 20px; text-align: center; }
+#yith_wapo_panel_blocks table.form-table tr:hover td { background-color: #f0f6fb; }
+#yith_wapo_panel_blocks table.form-table tr .name { text-align: left; }
+#yith_wapo_panel_blocks table.form-table tr th.priority { width: 60px; }
+#yith_wapo_panel_blocks table.form-table tr th.active { width: 300px; }
+#yith_wapo_panel_blocks table.form-table tr .active { text-align: right; position: relative; }
+#yith_wapo_panel_blocks table.form-table tr .active .actions { margin-top: -20px; position: absolute; top: 50%; right: 100px; white-space: nowrap; z-index: 9; }
+#yith_wapo_panel_blocks table.form-table tr:hover .active .actions { display: inline-block !important; }
+#yith_wapo_panel_blocks table.form-table tr .active .actions a { width: 40px; height: 40px; line-height: 40px; background: #fff; border: 2px solid #efefef; border-radius: 50%; text-align: center; display: inline-block; }
+
+/*
+ *	BLOCK
+ */
+
+#yith-wapo-panel-block form:after { content: ''; display: block; clear: both; }
+#yith-wapo-panel-block form .field-wrap { margin-bottom: 40px; clear: both; }
+#yith-wapo-panel-block form .field-wrap:after { content: ''; display: block; clear: both; }
+#yith-wapo-panel-block form .field-wrap > label { width: 150px; padding: 10px 0px 0px 0px; float: left; }
+#yith-wapo-panel-block form .field-wrap .field { float: left; }
+#yith-wapo-panel-block form .field-wrap .field input { width: 200px; height: 50px; }
+
+#yith-wapo-panel-block form #addons-tabs {  }
+#yith-wapo-panel-block form #addons-tabs a { color: #aaa; padding: 20px 30px; font-weight: bold; text-decoration: none; display: inline-block; }
+#yith-wapo-panel-block form #addons-tabs a:hover,
+#yith-wapo-panel-block form #addons-tabs a.selected { color: #0073aa; }
+#yith-wapo-panel-block form #addons-tab { border: 2px solid #eee; padding: 50px 30px 20px 30px; }
+#yith-wapo-panel-block form #addons-tab #block-options { text-align: center; }
+#yith-wapo-panel-block form #addons-tab #block-options button { margin: 20px 0px 40px 0px; }
+
+/*
+ *	OVERLAY
+ */
+
+#yith-wapo-options-overlay { background-color: rgba(0,0,0,.5); position: absolute; top: 0; right: 0; bottom: 0; left: -20px; overflow-y: scroll; position: absolute; z-index: 10; }
+#yith-wapo-options-overlay #options-editor { background-color: #fff; max-width: 1000px; border-radius: 20px; padding: 50px 10px 50px 40px; margin: 150px auto; }
+#yith-wapo-options-overlay #options-editor h3 { padding: 0; margin-bottom: 50px; }
+#yith-wapo-options-overlay #options-editor #types { padding: 0; }
+#yith-wapo-options-overlay #options-editor #types a.type { color: #222; width: 133px; border: 1px solid #eee; padding: 20px 0px; margin: 0px 30px 30px 0px; font-size: 14px; text-align: center; text-decoration: none; display: block; float: left; -webkit-box-shadow: 0px 0px 10px 10px rgba(238,238,238,0.5); -moz-box-shadow: 0px 0px 10px 10px rgba(238,238,238,0.5); box-shadow: 0px 0px 10px 10px rgba(238,238,238,0.5); }
+#yith-wapo-options-overlay #options-editor #types a.type:hover { color: #4589a6; border: 1px solid #d8e9fb; }
+#yith-wapo-options-overlay #options-editor #types a.type .icon { width: 50px; height: 50px; background-color: #eee; border-radius: 50%; margin-bottom: 10px; display: inline-block; }
+
+#yith-wapo-options-overlay #options-editor form #options-tabs {  }
+#yith-wapo-options-overlay #options-editor form #options-tabs a { color: #aaa; padding: 20px 30px; font-weight: bold; text-decoration: none; display: inline-block; text-transform: uppercase; }
+#yith-wapo-options-overlay #options-editor form #options-tabs a:hover,
+#yith-wapo-options-overlay #options-editor form #options-tabs a.selected { color: #0073aa; }
+
+#yith-wapo-options-overlay #options-editor form #options-container { border: 2px solid #eee; padding: 20px; margin-right: 30px; }
+#yith-wapo-options-overlay #options-editor form #options-container #tab-options-list { border: 2px solid #eee; padding: 20px; }
+#yith-wapo-options-overlay #options-editor form #options-container #tab-options-list .option {  }
+
+#yith-wapo-options-overlay form:after { content: ''; display: block; clear: both; }
+#yith-wapo-options-overlay form .field-wrap { margin-bottom: 40px; clear: both; }
+#yith-wapo-options-overlay form .field-wrap:after { content: ''; display: block; clear: both; }
+#yith-wapo-options-overlay form .field-wrap > label { width: 130px; padding: 10px 20px 0px 0px; float: left; }
+#yith-wapo-options-overlay form .field-wrap .field { float: left; }
+#yith-wapo-options-overlay form .field-wrap .field input { width: 200px; height: 50px; }
+#yith-wapo-options-overlay form .field-wrap .field .description { max-width: none; display: block; }
+
+
+
+#plugin-fw-wc.yith-wapo #yith-wapo-panel-block form #save-button { padding: 30px 0px 10px 0px; }

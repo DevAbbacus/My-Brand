@@ -1,0 +1,10 @@
+.wp-block-wpmf-block-dropbox-file.aligncenter,
+.wp-block-wpmf-block-dropbox-file.aligncenter *,
+.wp-block-wpmf-block-google-file.aligncenter,
+.wp-block-wpmf-block-google-file.aligncenter *,
+.wp-block-wpmf-block-onedrive-file.aligncenter,
+.wp-block-wpmf-block-onedrive-file.aligncenter * {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

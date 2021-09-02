@@ -1,0 +1,15 @@
+#yith_wcmap_panel_banners {
+    .yith-plugin-fw-panel-wc-row.toggle-element {
+        > td {
+            padding-top: 0 !important;
+        }
+    }
+
+    .banner-input-number {
+        width: 80px;
+    }
+
+    .yith-plugin-fw-multi-colorpicker {
+        max-width: 700px;
+    }
+}
